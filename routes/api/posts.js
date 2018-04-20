@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/test', (req, res)=>{
-    res.json({msg: "Posts Works!"});
+    res.json({msg: "Posts Works"});
 });
 //ciao
 module.exports =  router;
